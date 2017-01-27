@@ -12,9 +12,10 @@ $green-project: #1CAA98;
 .jumbotron {
   background-image: url('../img/site_showcase_bg.jpg');
   color: white; 
-  padding: 48px 0px 48px 0px;
+  padding: 48px 0px 0px 0px;
   h1 span {color: $green-project;}
-  img {display:inline-block;}
+  img {display:inline-block; padding: 5px 5px;}
+  img:last-of-type {display:inline-block; padding-bottom: 0px;}
 }
 
 .gamma-features {
@@ -23,11 +24,9 @@ $green-project: #1CAA98;
   padding: 30px 0px;
   line-height: 40px;
 
-  h2 {
-    font-weight: bold;
+  h2 {font-weight: bold;
   }
-  ul li {
-      font-size: 20px;      
+  ul li {font-size: 20px;      
   }
 }
 
@@ -42,7 +41,11 @@ $green-project: #1CAA98;
 }
 
 .demos-description {
-  padding: 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  img {
+    width: 100%;
+  }
 }
 
 
@@ -60,11 +63,18 @@ $green-project: #1CAA98;
 .group-items {
   margin-top: 40px;
   margin-bottom: 40px;
+  img {width: 100%;}
 
 }
 
-@media (max-width : 480px) {
+@media (max-width : 560px) {
   .jumbotron .container {
     text-align: center;
+}
+}
+
+@media (max-width: 1200px) {
+  .jumbotron {
+    padding-bottom: 48px;
 }
 }
