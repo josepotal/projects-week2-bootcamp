@@ -1,0 +1,89 @@
+/* line 4, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.navbar {
+  margin: 0px;
+}
+
+/* line 8, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+#logo-top {
+  color: #1CAA98;
+}
+
+/* line 12, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.jumbotron {
+  background-image: url("../img/site_showcase_bg.jpg");
+  color: white;
+  padding: 48px 0px 48px 0px;
+}
+
+/* line 16, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.jumbotron h1 span {
+  color: #1CAA98;
+}
+
+/* line 17, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.jumbotron img {
+  display: inline-block;
+}
+
+/* line 20, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.gamma-features {
+  background: #1CAA98;
+  color: white;
+  padding: 30px 0px;
+  line-height: 40px;
+}
+
+/* line 26, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.gamma-features h2 {
+  font-weight: bold;
+}
+
+/* line 29, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.gamma-features ul li {
+  font-size: 20px;
+}
+
+/* line 34, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.footer {
+  background: black;
+  color: white;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+/* line 39, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.footer a {
+  color: white;
+}
+
+/* line 44, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.demos-description {
+  padding: 30px 0px;
+}
+
+/* line 49, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.main-title {
+  background: #1CAA98;
+  color: white;
+}
+
+/* line 53, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.main-title h1 {
+  padding: 5px 0px 5px 0px;
+  margin: 10px 0px;
+}
+
+/* line 60, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+.group-items {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+  /* line 67, C:/Users/Josep/Documents/Skylabcoders/exercises-bootcamp/bootstrap-exercises-master/01-photoapp-website/scss/styles.scss */
+  .jumbotron .container {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=../css/styles.map */

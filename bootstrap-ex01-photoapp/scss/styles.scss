@@ -1,0 +1,70 @@
+
+$green-project: #1CAA98;
+
+.navbar {
+  margin: 0px;
+}
+
+#logo-top {
+  color: $green-project ;
+}
+
+.jumbotron {
+  background-image: url('../img/site_showcase_bg.jpg');
+  color: white; 
+  padding: 48px 0px 48px 0px;
+  h1 span {color: $green-project;}
+  img {display:inline-block;}
+}
+
+.gamma-features {
+  background: $green-project;
+  color: white;
+  padding: 30px 0px;
+  line-height: 40px;
+
+  h2 {
+    font-weight: bold;
+  }
+  ul li {
+      font-size: 20px;      
+  }
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 10px 0px;
+  margin: 0px;
+  a { 
+    color: white;
+  }
+}
+
+.demos-description {
+  padding: 30px 0px;
+}
+
+
+.main-title {
+  background: $green-project;
+  color: white;
+  
+  h1 {
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px;
+  }
+
+}
+
+.group-items {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+@media (max-width : 480px) {
+  .jumbotron .container {
+    text-align: center;
+}
+}
