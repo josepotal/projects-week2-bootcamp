@@ -1,0 +1,29 @@
+.container {
+  border: 1px solid red;
+}
+
+// use @import reset for instance
+
+
+.footer {
+  background: #3B5A76;
+  color: white;
+  // padding: 10px 0px;
+  // margin: 0px;
+  p {
+    margin: 10px 0px;
+  }
+}
+
+.header {
+  margin-bottom: -108px;
+}
+
+.name-job {
+  margin-top: 200px;
+  border-bottom: 2px solid purple;
+}
+
+#whole-page {
+  background: #EDEDED;
+}

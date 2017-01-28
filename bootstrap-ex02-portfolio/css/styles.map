@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/styles.css",
+	"sources": [
+		"../scss/styles.scss"
+	],
+	"sourcesContent": [
+		".container {\r\n  border: 1px solid red;\r\n}\r\n\r\n// use @import reset for instance\r\n\r\n\r\n.footer {\r\n  background: #3B5A76;\r\n  color: white;\r\n  // padding: 10px 0px;\r\n  // margin: 0px;\r\n  p {\r\n    margin: 10px 0px;\r\n  }\r\n}\r\n\r\n.header {\r\n  margin-bottom: -108px;\r\n}\r\n\r\n.name-job {\r\n  margin-top: 200px;\r\n  border-bottom: 2px solid purple;\r\n}\r\n\r\n#whole-page {\r\n  background: #EDEDED;\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,aAAc;CACvB;;;AAKD,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,OAAQ;EACpB,KAAK,EAAE,KAAM;CAMd;;;AARD,AAKE,OALK,CAKL,CAAC,CAAC;EACA,MAAM,EAAE,QAAS;CAClB;;;AAGH,AAAA,OAAO,CAAC;EACN,aAAa,EAAE,MAAO;CACvB;;;AAED,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,KAAM;EAClB,aAAa,EAAE,gBAAiB;CACjC;;;AAED,AAAA,WAAW,CAAC;EACV,UAAU,EAAE,OAAQ;CACrB",
+	"names": []
+}

@@ -1,0 +1,33 @@
+/* line 1, C:/Users/Josep/Documents/Skylabcoders/projects-bootcamp/projects-week2-bootcamp/bootstrap-ex02-portfolio/scss/styles.scss */
+.container {
+  border: 1px solid red;
+}
+
+/* line 8, C:/Users/Josep/Documents/Skylabcoders/projects-bootcamp/projects-week2-bootcamp/bootstrap-ex02-portfolio/scss/styles.scss */
+.footer {
+  background: #3B5A76;
+  color: white;
+}
+
+/* line 13, C:/Users/Josep/Documents/Skylabcoders/projects-bootcamp/projects-week2-bootcamp/bootstrap-ex02-portfolio/scss/styles.scss */
+.footer p {
+  margin: 10px 0px;
+}
+
+/* line 18, C:/Users/Josep/Documents/Skylabcoders/projects-bootcamp/projects-week2-bootcamp/bootstrap-ex02-portfolio/scss/styles.scss */
+.header {
+  margin-bottom: -108px;
+}
+
+/* line 22, C:/Users/Josep/Documents/Skylabcoders/projects-bootcamp/projects-week2-bootcamp/bootstrap-ex02-portfolio/scss/styles.scss */
+.name-job {
+  margin-top: 200px;
+  border-bottom: 2px solid purple;
+}
+
+/* line 27, C:/Users/Josep/Documents/Skylabcoders/projects-bootcamp/projects-week2-bootcamp/bootstrap-ex02-portfolio/scss/styles.scss */
+#whole-page {
+  background: #EDEDED;
+}
+
+/*# sourceMappingURL=../css/styles.map */
